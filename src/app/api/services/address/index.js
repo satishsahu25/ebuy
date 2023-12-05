@@ -41,7 +41,7 @@ export const deleteaddress = async (id) => {
 export const getalladdresses = async (id) => {
   try {
     const res = await fetch(
-      `https://ebuy-three.vercel.app/api/address/getalladdress?id=${id}`,
+      `api/address/getalladdress?id=${id}`,
       {
         method: "GET",
         headers: {

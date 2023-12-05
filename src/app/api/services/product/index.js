@@ -22,7 +22,7 @@ export const addnewproduct = async (formdata) => {
 
 export const getAllAdminProducts = async () => {
   try {
-    const res = await fetch("api/admin/allproducts", {
+    const res = await fetch("https://ebuy-three.vercel.app/api/admin/allproducts", {
       method: "GET",
       cache: "no-store",
     });
@@ -69,7 +69,7 @@ export const deletedproduct = async (id) => {
 export const productbycategory = async (id) => {
   try {
     const res = await fetch(
-      `api/admin/productbycategory?id=${id}`,
+      `https://ebuy-three.vercel.app/api/admin/productbycategory?id=${id}`,
       {
         method: "GET",
         cache: "no-store",
@@ -86,7 +86,7 @@ export const productbycategory = async (id) => {
 export const productbyid = async (id) => {
   try {
     const res = await fetch(
-      `api/admin/product-by-id?id=${id}`,
+      `https://ebuy-three.vercel.app/api/admin/product-by-id?id=${id}`,
       { method: "GET", cache: "no-store" }
     );
 

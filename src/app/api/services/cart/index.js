@@ -24,7 +24,7 @@ export const addtocart=async(formData)=>{
 export const getallcartitems=async(id)=>{
     console.log(id);
     try{
-        const res=await fetch(`http://localhost:3000/api/cart/allcartitems?id=${id}`,{
+        const res=await fetch(`https://ebuy-three.vercel.app/api/cart/allcartitems?id=${id}`,{
             method: "GET",
             headers:{
                 Authorization:`Bearer ${Cookies.get('token')}`,

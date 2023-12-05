@@ -7,8 +7,9 @@ const nextConfig = {
                 // matching all API routes
                 source: "/api/:path*",
                 headers: [{
-                    "Access-Control-Allow-Origin": "https://ebuy-satishsahu25.vercel.app",
-                    'Access-Control-Allow-Methods': ['GET', 'POST', 'PUT', 'DELETE']
+                    key:"Access-Control-Allow-Origin",value:"https://ebuy-satishsahu25.vercel.app",
+                },{
+                    key:'Access-Control-Allow-Methods',value:['GET', 'POST', 'PUT', 'DELETE']
                 }]
                     
             }

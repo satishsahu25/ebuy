@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 
-Link of deployed project(front+back on vercel):https://ebuy-gamma.vercel.app/
+Link of deployed project(front+back on vercel):https://ebuy-three.vercel.app/
 
 First, run the development server:
 
